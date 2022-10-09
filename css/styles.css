@@ -6,7 +6,11 @@
 }
 
 body {
-    background-color: #fff;
+    background-image: url("../assets/wallpaper.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -35,6 +39,8 @@ footer {
     width: 100%;
     background-color: #a5c3d1;
     padding: 2rem;
+    border-radius: 30px;
+    opacity: 0.9;
 }
 
 /* IMC Form */
@@ -82,9 +88,9 @@ button {
     background-color: #fed455;
     border: none;
     color: #000;
-    border-radius: 10px;
+    border-radius: 15px;
     cursor: pointer;
-    opacity: 0.9;
+    opacity: 0.8;
     flex: 1;
 }
 
@@ -179,3 +185,4 @@ button:hover {
 .level-7 {
     color: #231f20;
 }
+
