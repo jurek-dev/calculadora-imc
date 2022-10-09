@@ -7,11 +7,24 @@
 
 body {
     background-color: #fff;
+    min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    color: #000;
+}
+
+header {
+    margin-top: auto;
+}
+
+main {
+    margin: auto 0;
+}
+
+footer {
+    margin: auto 0;
+    align-items: center;
 }
 
 .hide {
@@ -19,10 +32,8 @@ body {
 }
 
 .container {
-    min-width: 400px;
-    height: 100%;
-    min-height: 400px;
-    background-color: #1d1e33;
+    width: 100%;
+    background-color: #a5c3d1;
     padding: 2rem;
 }
 
@@ -30,6 +41,7 @@ body {
 
 #calc-container h2 {
     text-align: center;
+    color: #000;
     padding: 2rem;
 }
 
@@ -48,12 +60,13 @@ body {
 
 .form-control label {
     font-weight: bold;
+    color: #000;
     margin-bottom: .6rem;
-    color: #ccc;
 }
 
 .form-control input {
     padding: 1rem .5rem;
+    margin-bottom: .5rem;
 }
 
 .action-control {
@@ -66,9 +79,10 @@ body {
 button {
     text-transform: uppercase;
     padding: 1rem 1.5rem;
-    background-color: #F44236;
+    background-color: #fed455;
     border: none;
-    color: #fff;
+    color: #000;
+    border-radius: 10px;
     cursor: pointer;
     opacity: 0.9;
     flex: 1;
@@ -79,7 +93,7 @@ button:hover {
 }
 
 #clear-btn {
-    background-color: #444;;
+    background-color: #F9F9F9;
 }
 
 /* Table */
@@ -97,12 +111,12 @@ button:hover {
 
 #imc-info {
     font-size: 1.4rem;
-    color: #ccc;
+    color: #000;
 }
 
 #result-container h3 {
     margin-top: 1rem;
-    color: #dfdfdf;
+    color: #000;
 }
 
 #imc-table {
@@ -112,7 +126,7 @@ button:hover {
 
 .table-header {
     font-weight: bold;
-    color: #ccc;
+    color: #000;
 }
 
 .table-header,
