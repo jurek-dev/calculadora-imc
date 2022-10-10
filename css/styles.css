@@ -37,10 +37,10 @@ footer {
 
 .container {
     width: 100%;
-    background-color: #a5c3d1;
+    background-color: #fff;
     padding: 2rem;
     border-radius: 30px;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 /* IMC Form */
@@ -99,7 +99,7 @@ button:hover {
 }
 
 #clear-btn {
-    background-color: #F9F9F9;
+    background-color: #d2d2d2;
 }
 
 /* Table */
@@ -108,6 +108,7 @@ button:hover {
     text-align: center;
     display: flex;
     flex-direction: column;
+    padding: 2rem;
 }
 
 #imc-number {
