@@ -43,6 +43,10 @@ footer {
     height: 30px;
 }
 
+#imc-text {
+    padding-top: 1rem;
+}
+
 /* Hide/Show elements */
 .hide {
     display: none !important;
@@ -54,9 +58,6 @@ footer {
 }
 
 /* IMC Form */
-
-#calc-container{
-}
 
 .form-inputs {
     display: flex;
@@ -234,22 +235,49 @@ button:hover {
 
 #back-btn {
     align-self: center;
+    padding: 1.5rem;
+    background-color: #0076ff;
+    color: #fff;
 }
 
 .level-1 {
     background-image: linear-gradient(#0076ff, #4b6cff);
 }
 
+.category-1 {
+    background-color: #0076ff;
+    border-radius: 10px;
+    padding: .3rem;
+}
+
 .level-2 {
     background-image: linear-gradient(#0076ff, #4b6cff);
+}
+
+.category-2 {
+    background-color: #0076ff;
+    border-radius: 10px;
+    padding: .3rem;
 }
 
 .level-3 {
     background-image: linear-gradient(#0fe872, #07abbc);
 }
 
+.category-3 {
+    background-color: #0fe872;
+    border-radius: 10px;
+    padding: .3rem;
+}
+
 .level-4 {
     background-image: linear-gradient(#ffcf1b, #ff6333);
+}
+
+.category-4 {
+    background-color: #ffcf1b;
+    border-radius: 10px;
+    padding: .3rem;
 }
 
 .level-5 {
@@ -266,7 +294,18 @@ button:hover {
     background-image: linear-gradient(#a1002e, #ce4d11);
 }
 
+.category-6 {
+    background-color: #a1002e;
+    border-radius: 10px;
+    padding: .3rem;
+}
+
 .level-7 {
     background-image: linear-gradient(#410012, #351100);
 }
 
+.category-7 {
+    background-color: #410012;
+    border-radius: 10px;
+    padding: .3rem;
+}
