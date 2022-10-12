@@ -96,6 +96,7 @@ function cleanInputs() {
     weightInput.value = "";
     imcNumber.classList = "";
     imcInfo.classList = "";
+    document.body.classList = "";
 }
 
 function validDigits(text) {
@@ -151,32 +152,27 @@ calcBtn.addEventListener("click", (e) => {
 
     switch(info) {
         case "Muito abaixo do peso":
-            imcNumber.classList.add("level-1");
-            imcInfo.classList.add("level-1");
+            document.body.classList.add("level-1");
             break;
         case "Abaixo do peso":
-            imcNumber.classList.add("level-2");
-            imcInfo.classList.add("level-2");
+            document.body.classList.add("level-2");
             break;
         case "Peso normal":
-            imcNumber.classList.add("level-3");
-            imcInfo.classList.add("level-3");
+            document.body.classList.add("level-3");
             break;
         case "Acima do peso":
-            imcNumber.classList.add("level-4");
-            imcInfo.classList.add("level-4");
+            document.body.classList.add("level-4");
             break;
         case "Obesidade I":
-            imcNumber.classList.add("level-5");
-            imcInfo.classList.add("level-5");
+            document.body.classList.add("level-5");
+            imcNumber.classList.add("category-5");
             break;
         case "Obesidade II":
-            imcNumber.classList.add("level-6");
-            imcInfo.classList.add("level-6");
+            document.body.classList.add("level-6");
             break;
         case "Obesidade III":
-            imcNumber.classList.add("level-7");
-            imcInfo.classList.add("level-7");
+            document.body.classList.add("level-7");
+            //imcInfo.classList.add("level-7");
             break;
     }
 
